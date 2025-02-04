@@ -16,23 +16,16 @@ This is a Pygame-based particle simulation inspired by the popular particles.js 
 
 - Python 3.7+
 - Pygame
-- NumPy (optional, but recommended for scientific computing)
 
 ## Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/particle-simulation.git
-   cd particle-simulation
+   git clone https://github.com/yourusername/particlespy.git
+   cd particlespy
    ```
 
-2. Create a virtual environment (recommended):
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-   ```
-
-3. Install dependencies:
+2. Install dependencies:
    ```bash
    pip install pygame
    ```
@@ -79,23 +72,7 @@ python main.py
 - Adjust `SPEED_SCALAR` to control particle movement
 - Modify distance threshold in `drawLines()` to change connection behavior
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-[Choose an appropriate license, e.g., MIT License]
-
 ## Acknowledgments
 
 - Inspired by particles.js
 - Created using Pygame
-
-## Todo
-
-- [ ] Add mouse interaction
-- [ ] Implement particle acceleration
-- [ ] Create configurable particle behaviors
-- [ ] Add performance optimizations
-```
