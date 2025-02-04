@@ -33,7 +33,7 @@ This is a Pygame-based particle simulation inspired by the popular particles.js 
 ## Project Structure
 
 ```
-particle-simulation/
+particlespy/
 │
 ├── main.py           # Main program entry point
 ├── particle.py       # Particle class definition
